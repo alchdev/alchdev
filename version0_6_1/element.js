@@ -200,6 +200,8 @@ function deleteElements(value) {
 }
 
 function deleteGroupBlock(value) {
+  if (!classes[value]) return;
+
   let isGroupBlock = classes[value].split(' ').some(item => item === 'group_block');
 
   if (isGroupBlock) {
