@@ -1,4 +1,4 @@
-let githubRepLink = 'https://raw.githubusercontent.com/alchdev/alchdev/refs/heads/master/';
+let githubRepLink = 'https://cdn.jsdelivr.net/gh/alchdev/alchdev@master/';
 
 function loadScripts(scripts) {
   if (!scripts || scripts.length === 0) {
